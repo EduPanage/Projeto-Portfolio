@@ -4,12 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Eduardo Panage Avila</title>
+    <title>Portfólio - Eduardo Panage Avila</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="navbar">
+                <a class="navbar-links" href="index.html">Home</a>
+                <a class="navbar-links" href="about.html">Sobre Mim</a>
+                <a class="navbar-links" href="projects.html">Projetos</a>
+                <a class="navbar-links" href="contact.html">Contato</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao-conteudo">
             <h1 class="apresentacao-conteudo-titulo">Eduardo Panage Avila</h1>
@@ -19,14 +26,17 @@
                 UNIGRAN
                 na cidade de Dourados.</p>
             <div class="apresentacao-botoes">
-                <a class="apresentacao-botao" href="https://www.instagram.com/eduardopanage_/">Instagram</a>
-                <a class="apresentacao-botao" href="https://github.com/EduPanage">Gihub</a>
-                <a class="apresentacao-botao" href="https://www.linkedin.com/in/eduardo-panage-avila/">Linkedin</a>
+                <h3 class="apresentacao-botoes-subtitulo">Acesse minhas redes:</h3>
+                <a class="apresentacao-botao" href="https://www.instagram.com/eduardopanage_/"><img src="imgs/instagram.png" alt="Instagram Eduardo">Instagram</a>
+                <a class="apresentacao-botao" href="https://github.com/EduPanage"><img src="imgs/github.png" alt="Github Eduardo">Github</a>
+                <a class="apresentacao-botao" href="https://www.linkedin.com/in/eduardo-panage-avila/"><img src="imgs/linkedin.png" alt="Linkedin Eduardo">Linkedin</a>
             </div>
         </section>
-        <img src="imgs/Perfil.jpeg" alt="Eduardo e sua noiva.">
+        <img id="Foto-Perfil" src="imgs/Perfil.jpeg" alt="Eduardo e sua noiva.">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+            <p>Desenvolvido por EduPanage</p>
+    </footer>
 </body>
 
 </html>

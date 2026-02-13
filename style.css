@@ -8,30 +8,53 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
 
 a {
+    text-decoration: none;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 20%;
+    border-bottom: 2px solid #22D4FD;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.navbar {
+    display: flex;
+    size: 24px;
+    font-weight: 600;
+    gap: 80px;
+    padding-bottom: 25px;
+}
+
+.navbar-links {
     color: #22D4FD;
-    padding: 10px;
     font-family: "Montserrat", sans-serif;
 }
 
-img {
-    border-radius: 100px;
-    width: 480px;
-    height: 600px;
+/* Hover do Botão dos Links da Navbar  */
+
+.navbar-links:hover{
+    color: #ffffff;
 }
 
 .apresentacao {
-    margin: 10% 20%;
+    padding: 7% 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
+}
+
+#Foto-Perfil {
+    border-radius: 100px;
+    width: 480px;
 }
 
 .apresentacao-conteudo {
@@ -52,30 +75,73 @@ img {
     font-family: "Krona One", sans-serif;
 }
 
+/* Texto da pagina Home */
+
 .apresentacao-conteudo-texto {
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
 
 }
 
-.apresentacao-botoes{
-    width: 620px;
+
+/* Texto da pagina Sobre Mim (About) */
+
+.apresentacao-sobre-mim {  
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Link do Fale Comigo no fim do texto do Sobre Mim (About)*/
+
+.contato-link{
+    color: #22D4FD;
+}
+
+.apresentacao-botoes {
+    width: 600px;
     display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
 
 }
 
-.apresentacao-botao{
-    background-color: #22D4FD;
-    width: 200px;
-    text-align: center;
-    border-radius: 16px;
-    font-size: 24px;
-    font-weight: 600;
-    padding: 21.5px 0;
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
-    
+.apresentacao-botoes-subtitulo {
+    size: 24px;
+    font-weight: 400;
+    font-family: "Krona One", sans-serif;
 }
 
+.apresentacao-botao {
+    width: 378px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-color: #22D4FD;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px 16px;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Hover do Botão dos Links de Redes da pagina Home  */
+
+.apresentacao-botao:hover {
+    background-color: #272727;
+}
+
+.rodape {
+    color: #000000;
+    padding: 24px;
+    background-color: #22D4FD;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
