@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,12 +19,38 @@
         </nav>
     </header>
     <main class="apresentacao">
-        <section class="apresentacao-conteudo">
-            <h1 class="apresentacao-conteudo-titulo">Contatos</h1>
-            <p class="apresentacao-conteudo-texto">
-                Segue abaixo meus canais de contato para eventuais propostas ou oportunidades:
+        <section class="apresentacao-contato">
+            <h1 class="apresentacao-contato-titulo">Contatos</h1>
+            <p class="apresentacao-contato-texto">
+                Segue abaixo meus canais de contato para eventuais propostas, oportunidades e demais intenções de
+                contato:
             </p>
-
+            <div class="contato-conteudo">
+                <form class="contato-formulario" action="https://formspree.io/f/xpqjrpao" method="POST">
+                    <label>
+                        Seu nome:
+                        <input type="name" name="name">
+                    </label>
+                    <label>
+                        Seu email:
+                        <input type="email" name="email">
+                    </label>
+                    <label>
+                        Sua mensagem:
+                        <textarea name="message"></textarea>
+                    </label>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="contato-lateral">
+                    <div class="contato-lateral">
+                        <p><i class="fas fa-phone"></i> Telefone: (67) 99668-7261</p>
+                        <p><i class="fas fa-envelope"></i> Email: edupanage.dev@gmail.com</p>
+                        <a class="contato-botao" href="https://wa.me/5567996687261" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="rodape">
