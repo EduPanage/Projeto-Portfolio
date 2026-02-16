@@ -45,7 +45,7 @@ a {
 }
 
 .apresentacao {
-    padding: 7% 20%;
+    padding: 6% 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -145,7 +145,7 @@ a {
 
 .rodape {
     color: #000000;
-    padding: 24px;
+    padding: 30px;
     background-color: #22D4FD;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -166,9 +166,10 @@ a {
 }
 
 .contato-conteudo {
+    padding: 7% 0%;
     display: flex;
     flex-wrap: wrap;          /* Responsivo: empilha em telas menores */
-    gap: 60px;
+    gap: 80px;
     justify-content: center;
     margin-top: 40px;
     font-family: "Montserrat", sans-serif;
