@@ -42,7 +42,7 @@ a {
 
 /* Hover do Botão dos Links da Navbar  */
 
-.navbar-links:hover{
+.navbar-links:hover {
     color: #ffffff;
 }
 
@@ -92,14 +92,14 @@ a {
 
 /* Texto da pagina Sobre Mim (About) */
 
-.apresentacao-sobre-mim {  
+.apresentacao-sobre-mim {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
 }
 
 /* Link do Fale Comigo no fim do texto do Sobre Mim (About)*/
 
-.contato-link{
+.contato-link {
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
     color: #22D4FD;
@@ -119,7 +119,7 @@ a {
     size: 24px;
     font-weight: 400;
     font-family: "Krona One", sans-serif;
-    
+
 }
 
 .apresentacao-botao {
@@ -146,15 +146,15 @@ a {
     background-color: #272727;
 }
 
-/* Styles da Pagina de Contato  */ 
+/* Styles da Pagina de Contato  */
 
-.apresentacao-contato-titulo{
+.apresentacao-contato-titulo {
     font-size: 32px;
     font-family: "Krona One", sans-serif;
     font-weight: 400;
 }
 
-.apresentacao-contato-texto{
+.apresentacao-contato-texto {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
 }
@@ -162,7 +162,8 @@ a {
 .contato-conteudo {
     padding: 7% 0%;
     display: flex;
-    flex-wrap: wrap;          /* Responsivo: empilha em telas menores */
+    flex-wrap: wrap;
+    /* Responsivo: empilha em telas menores */
     gap: 80px;
     justify-content: center;
     margin-top: 40px;
@@ -232,7 +233,8 @@ a {
 
 .contato-botao {
     display: inline-block;
-    background: #25D366;          /* Verde WhatsApp */
+    background: #25D366;
+    /* Verde WhatsApp */
     color: white;
     padding: 12px 24px;
     border-radius: 6px;
@@ -245,6 +247,8 @@ a {
     background: #20b858;
 }
 
+/* Estilos Rodapé*/
+
 .rodape {
     margin-top: auto;
     color: #000000;
@@ -253,4 +257,80 @@ a {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     text-align: center;
+}
+
+/* Tablet e Acima */
+
+@media (min-width: 768px) {
+    .cabecelho {
+        padding: 2% 0 0 15%;
+    }
+
+    .navbar {
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    .apresentacao {
+        flex-direction: row;
+        padding: 7% 12%;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    #Foto-Perfil {
+        width: 300px;
+    }
+
+    .apresentacao-conteudo,
+    .apresentacao-botoes {
+        width: 70%;
+        align-items: center;
+    }
+
+    .apresentacao-conteudo-titulo{
+        font-size: 24px;
+    }
+
+    .subtitulo-destaque{
+        font-size: 18px;
+    }
+
+    .apresentacao-conteudo-texto{
+        font-size: 14px;
+    }
+
+    .apresentacao-botoes-subtitulo{
+        font-size: 15px;
+    }
+
+    .apresentacao-botao {
+        width: 125px;
+        
+    }
+
+    /*Contato*/
+
+    .contato-conteudo {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contato-formulario{
+        max-width: 450px;
+    }
+
+    .contato-lateral{
+        min-width: 250px
+    }
+
+    @media (min-width: 1024px) {
+        .apresentacao {
+            padding: 7% 20%;
+        }
+
+        #Foto-Perfil {
+            width: 480px;
+        }
+    }
 }
