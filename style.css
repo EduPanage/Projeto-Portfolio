@@ -156,6 +156,14 @@ a {
 
 /* Styles da Pagina de Projetos */
 
+.apresentacao-conteudo-projetos{
+    width: min(100%, 600px);
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+}
+
 .apresentacao-projetos {
     display: flex;
     flex-direction: column;
@@ -183,6 +191,11 @@ a {
 .projeto-descricao {
     width: 100%;
     max-width: 500px;
+}
+
+.projeto-texto{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .projeto-link {
@@ -304,6 +317,7 @@ a {
     background-color: #22D4FD;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -323,7 +337,7 @@ a {
         flex-direction: row;
         padding: 7% 10%;
         justify-content: space-between;
-        text-align: left;
+        text-align: center;
     }
 
     #Foto-Perfil {
@@ -333,7 +347,9 @@ a {
     .apresentacao-conteudo,
     .apresentacao-botoes {
         width: 55%;
-        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .apresentacao-botao {
@@ -343,10 +359,17 @@ a {
 
     /* Projetos */
 
+    .apresentacao-conteudo-projetos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .apresentacao-projetos {
         flex-direction: row;
         justify-content: center;
-        flex-wrap: wrap;
+
     }
 
     /*Contato*/
@@ -364,7 +387,7 @@ a {
         min-width: 250px;
     }
 
-    
+
 }
 
 @media (min-width: 1024px) {
